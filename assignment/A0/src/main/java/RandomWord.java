@@ -9,12 +9,13 @@ public class RandomWord {
 
         String curWord = null;
 
-        while(!StdIn.isEmpty()){
+        while (!StdIn.isEmpty()) {
             curWord = StdIn.readString();
-            if(champion == null || StdRandom.bernoulli(1.0 / i)){
+
+            if (champion == null || StdRandom.bernoulli(1.0 / i)) {
                 champion = curWord;
             }
-            i ++;
+            i++;
         }
 
         System.out.println(champion);
