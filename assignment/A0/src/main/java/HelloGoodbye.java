@@ -7,6 +7,6 @@ public class HelloGoodbye {
 
         System.out.println("Hello " + firstPerson + " and " + secondPerson + ".");
 
-        System.out.println("Goodbye " + firstPerson + " and " + secondPerson + ".");
+        System.out.println("Goodbye " + secondPerson + " and " + firstPerson + ".");
     }
 }
